@@ -1,0 +1,248 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+header {
+    background-color: #362c71;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo {
+    width: 160px;
+    height: 95px;
+    margin-right:200px;
+}
+nav a {
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+
+    float: right; 
+    margin-top:30px;
+}
+nav a:hover {
+    color:rgb(159, 73, 240);
+}
+section {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+main{
+    padding: 5%;
+}
+.img-game {
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 234px;
+    height: 50px;
+    padding: 13px 85px;
+    border-radius: 200px;
+    border: 2px solid #000;
+    background-color: white;
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 175px;
+    left: 270px;
+}
+.button:hover {
+    background-color: lightgrey;
+}
+.container-cards{
+   width: 100%;
+   justify-content: space-between;
+   align-items: flex-start;
+   align-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 72px;
+   display: flex;
+}
+.card{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-align: center;
+    width: 230px;
+    display: inline-block;
+    margin-right: 70px;
+    border: 2px solid black;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+.card-img{
+    width: 215px;
+    height: 205px;
+    padding: 5px;
+}
+.text-card {
+    color: #444444;
+    margin-bottom:10px;
+    width: 230px;
+    position: relative;
+    left: 5px;
+    right: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-img{
+    text-decoration: none;
+   padding: 0 12px;
+   background: black;
+   color: white;
+   font-size: 16px;
+   line-height: 28px;
+   display: inline-block;
+   border-radius: 5px;
+}
+.button-img:hover{
+    background: rgb(54, 54, 54);
+}
+.button-character {
+    width: 1130px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 30px;
+}
+.button-character:hover {
+    background: rgb(54, 54, 54);
+}
+.container-comments{
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+    display: flex;
+ }
+ .comments{
+    padding-top: 5px;
+    padding-bottom: 15px;
+     margin: auto;
+     text-align: center;
+     width: 230px;
+     height: 450px;
+     display: inline-block;
+     margin-right: 125px;
+     border: 7px solid gray;
+     border-radius: 15px;
+ }
+ .comments:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+ }
+ .comments-img{
+     width: 100px;
+     height: 100px;
+ }
+ .text-comments {
+     color: #444444;
+     margin-bottom:10px;
+     width: 230px;
+     position: relative;
+     left: 5px;
+     right: 35px;
+     font-size: 18px;
+     font-weight: 600;
+ }
+ .button-comments{
+    text-decoration: none;
+   padding: 0 12px;
+   background: black;
+   color: white;
+   font-size: 16px;
+   line-height: 28px;
+   display: inline-block;
+   border-radius: 5px;
+}
+ .button-comments{
+     background: rgb(54, 54, 54);
+ }
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 38px;
+    background: #DCE5E2;
+    width: 100%;
+    }
+.img-phone{
+    width: 241px;
+    height: 149px;
+    }
+.text-phone{
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 0px;
+    text-align: center;
+    color: #000000;
+    max-width: 393px;
+    }
+.type-phone{
+    display: flex;
+    align-items: center;
+    padding: 16px 23px;
+    gap: 10px;
+    width: 270px;
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+    flex-shrink: 0;
+    }
+.subm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 33px;
+    height: 50px;
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    flex: 1 0 0;
+    color: white;
+    }
+.subm:hover {
+    background: rgb(54, 54, 54);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.block {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto; 
+    background-image: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70050000038765/adc55091042585f8f6703346b49c0416d78c69771b26586a90e677dee0517238");
+    border-radius: 8%;
+}
+.title {
+    text-align: center;
+}
+.title2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+footer{
+    margin-top: -100px;
+}
