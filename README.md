@@ -8,4 +8,4 @@
 _Available for: Windows, macOS, Android, iOS_
 
 # Warning
-_This project is just a tutorial and is not related to the actual game or its official website. All texts, images, and features are used for demonstration purposes only._
+_This project is just a tutorial and **is not related to the actual game or its official website.** All texts, images, and features are used for demonstration purposes only._
